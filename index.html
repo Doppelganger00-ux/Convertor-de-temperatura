@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="calculantor.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Conversor de Temperatura</h1>
+            <p>Converta temperaturas entre Celsius e Fahrenheit</p>
+        </div>
+    </header>
+    <section class="section">
+        <input type="number" id="temperatureInput" placeholder="Insira a temperatura" />
+        <div>
+            <a class="button" onclick="convertToCelsius()">Converter para Celsius</a>
+            <a class="button" onclick="convertToFahrenheit()">Converter para Fahrenheit</a>
+        </div>
+        <div class="result" id="result"></div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Conversor de Temperatura</p>
+    </footer>
+    <script src="calculantor.js"></script>
+</body>
+</html>
